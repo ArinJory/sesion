@@ -11,7 +11,8 @@
 #--------------------------------------------------------------------
 
 #--------------------------------------------------------------------
-# ENVIRONMENT
+CI_ENVIRONMENT = development
+
 #--------------------------------------------------------------------
 
 # CI_ENVIRONMENT = production
@@ -30,13 +31,13 @@
 # DATABASE
 #--------------------------------------------------------------------
 
-# database.default.hostname = localhost
-# database.default.database = ci4
-# database.default.username = root
-# database.default.password = root
-# database.default.DBDriver = MySQLi
-# database.default.DBPrefix =
-# database.default.port = 3306
+database.default.hostname = localhost
+database.default.database = miapp_login
+database.default.username = root
+database.default.password =
+database.default.DBDriver = MySQLi
+database.default.DBPrefix =
+database.default.port = 3306
 
 # If you use MySQLi as tests, first update the values of Config\Database::$tests.
 # database.tests.hostname = localhost
